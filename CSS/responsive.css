@@ -1,0 +1,92 @@
+@media screen and (min-width: 1024px) {
+    .label-container {
+        display: none; 
+    }
+   .header__menu {
+       max-height: 90px;
+       position: relative;
+       width: 100%;
+       overflow: visible;
+       top: 20px;
+       text-align: center;
+       background: transparent;
+   } 
+   .header__menu ul li a {
+    display: inline;
+    width: 20px;
+    
+   }
+   .header__menu ul {
+    display: flex;
+    align-items: center;
+   }
+   .dropdown {
+    width: 0;
+   }
+    #toggle-2:checked ~ .dropdown {
+    position: absolute;
+    top: 50px;
+    left: 60%;
+    display: block;
+    flex-direction: column;
+    height: 130px;
+    width: 160px;
+   }
+   .dropdown li a {
+    color: green;
+    font-weight: 900;
+   }
+   .hero {
+    background-position-y: 0%;
+    
+   } 
+   .hero__text {
+    position: relative;
+    top: 30vh;
+   }
+   .about .about__text {
+    position: relative;
+    top: 90px;
+   }
+   .yt-items-parent {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    height: 450px;
+   }
+   .youtube__item {
+    width: 300%;
+    box-sizing: border-box;  
+    }
+  .recent-posts {
+    border: 0px solid green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start;
+  }
+  .track__content {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    margin-bottom: 50px;
+  }
+  .progress-container {
+    width: 190px;
+  }
+  .contact-info-items-parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .contact-info-items {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+  
+}
+
+@media screen and (min-width: 768px) {
+   .video-large-item-text {
+    top: 60%;
+  }
+}
