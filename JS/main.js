@@ -60,5 +60,3 @@ document.querySelectorAll('.single_player_container').forEach(player => {
     return `${mins}:${secs}`;
   }
 });
-
-alert(window.innerWidth);
